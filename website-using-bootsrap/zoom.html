@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- divinectorweb.com -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoom image on scroll</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="zoom"><img src="home.jpeg"></div>
+
+	<div class="main-text">
+		<h2>Main Text</h2>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis doloremque, placeat tenetur minus, aspernatur dolor dolorum porro cum earum saepe aperiam suscipit ipsam. Explicabo blanditiis rem qui quaerat earum totam iusto necessitatibus, consectetur, alias labore, aliquid id dolorem eveniet officia nihil debitis fugit. Quisquam laborum nam libero ea? Deleniti, accusantium!</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis doloremque, placeat tenetur minus, aspernatur dolor dolorum porro cum earum saepe aperiam suscipit ipsam. Explicabo blanditiis rem qui quaerat earum totam iusto necessitatibus, consectetur, alias labore, aliquid id dolorem eveniet officia nihil debitis fugit. Quisquam laborum nam libero ea? Deleniti, accusantium!</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis doloremque, placeat tenetur minus, aspernatur dolor dolorum porro cum earum saepe aperiam suscipit ipsam. Explicabo blanditiis rem qui quaerat earum totam iusto necessitatibus, consectetur, alias labore, aliquid id dolorem eveniet officia nihil debitis fugit. Quisquam laborum nam libero ea? Deleniti, accusantium!</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis doloremque, placeat tenetur minus, aspernatur dolor dolorum porro cum earum saepe aperiam suscipit ipsam. Explicabo blanditiis rem qui quaerat earum totam iusto necessitatibus, consectetur, alias labore, aliquid id dolorem eveniet officia nihil debitis fugit. Quisquam laborum nam libero ea? Deleniti, accusantium!</p>
+
+	</div>  
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            $(".zoom img").css({
+                width: (100 + scroll / 5) + "%"
+            })
+        })
+    </script>
+</body>
+</html>
+                                                                                                                                                
