@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!ELEMENT book (Title,Price,Edition,Publisher)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>

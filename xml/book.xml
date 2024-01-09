@@ -1,0 +1,9 @@
+<!DOCTYPE book SYSTEM "book.dtd">
+<book>
+
+          <Title> Manga</Title>
+          <Price>200 </Price>
+          <Edition> 2nd </Edition>
+          <Publisher> John</Publisher>
+           
+</book>
