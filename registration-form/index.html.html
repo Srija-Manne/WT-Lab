@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: blue;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+            display: inline-block;
+            text-align: left;
+        }
+        h1 {
+            color: white;
+        }
+        form {
+            margin-top: 5px;
+            <!-- display: inline-block; -->
+        }
+        .form-group {
+            margin-bottom: 5px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .form-group label {
+            flex: 1; /* Label takes up the available space */
+        }
+        .form-group input[type="text"],
+        .form-group input[type="password"] {
+            flex: 2; 
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+        .add{
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            width: 100%;
+        }
+        p {
+            text-align: center;
+            margin-top: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        #bt
+        {
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div class="container">
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name :</label>
+                <input type="text" id="name" required placeholder="Enter name">
+            </div>
+            
+            <div class="form-group">
+                <label for="unamel">UserName :</label>
+                <input type="text" id="uname" required placeholder="Enter UserName">
+            </div>
+            
+            <div class="form-group">
+                <label for="pass">Password :</label>
+                <input type="password" id="pass" required placeholder="Enter Password">
+            </div>
+            <div class="form-group">
+                <label for="pass">MobileNumber:</label>
+                <input type="text" id="pass" required placeholder="Enter MobileNumber">
+            </div>
+            <div class = "form-group">
+                <label for="pass">Address :</label>
+                <textarea name="pass" id="pass" cols="25" rows="5"></textarea>
+            </div>
+
+            <div class="form-group" id = "bt">
+                <input type="button" value="Register">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
